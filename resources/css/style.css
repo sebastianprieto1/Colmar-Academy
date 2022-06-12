@@ -1,27 +1,23 @@
 *{
     margin: 0;
     padding: 0;
+    border-radius: 0 !important;
 }
 
 body{
     font-family: sans-serif, Arial, Helvetica;
+    min-width: 480px;
 }    
 .nav.nav-pills.navbar-right a{
     color:black;
 }
 
-/* #banner-img{
-    width: 100%;
-} */
-
-/* #content-left-column{
-    justify-content:center;
-    padding: 0;
-    margin-right: 0;
-} */
-
 #orientation-date-row{
     background-color: silver;
+}
+
+#mobile-content{
+    min-width: 480px;
 }
 
 /* Media query for mobile */
@@ -29,11 +25,17 @@ body{
     #desktop-nav{
         display: none;
     }
+    #desktop-content{
+        display: none;
+    }
 }
 
 /* Media query for desktop */
 @media only screen and (min-width: 680px) {
     #mobile-nav{
+        display: none;
+    }
+    #mobile-content{
         display: none;
     }
 }
