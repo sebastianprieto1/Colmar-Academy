@@ -12,8 +12,12 @@ body{
     color:black;
 }
 
-#orientation-date-row{
-    background-color: silver;
+#orientation-date-row:hover{
+    background-color: #D8D8D8;
+}
+
+#banner-row{
+    background-color: #D8D8D8;
 }
 
 #mobile-content{
