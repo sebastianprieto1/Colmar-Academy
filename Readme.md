@@ -14,9 +14,9 @@ I tried to use bootcamp only with minimal CSS. I'm not sure if this is how Boots
 These are some of the issues I encountered with this approach:
 
 
-1- Resizing the nav bar to make it responsive, hide the link text and display icons only.
-2- Applying margin and padding on many of the elements
-3- Overall positioning of elements. I could not get the 'class="justify-content-center"' to work with d-flex.
-4- Smooth transitions with my responsive design.
+- Resizing the nav bar to make it responsive, hide the link text and display icons only.
+- Applying margin and padding on many of the elements
+- Overall positioning of elements. I could not get the 'class="justify-content-center"' to work with d-flex.
+- Smooth transitions with my responsive design.
 
 I found Bootstrap to be quite the challenge! 
