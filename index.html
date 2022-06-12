@@ -7,23 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./resources/css/style.css">
     <title>Colmar Academy</title>
 </head>
 
 <body>
     <!-- N A V -->
-    <nav class="navbar navbar-light bg-white">
+    <!-- Desktop -->
+    <nav class="navbar navbar-light bg-white" id="desktop-nav">
         <div class="container-fluid">
+            <!-- Logo -->
             <a class="navbar-brand" href="#">
-                <img class="mx-1"src="/Web Assessment Colmar Academy/resources/images/ic-logo.svg" alt="">
+                <img class="mx-1" src="/Web Assessment Colmar Academy/resources/images/ic-logo.svg"
+                    alt="Colmar Academy logo">
                 <span class="fw-bold">COLMAR</span>
                 <span class="fw-light text-secondary">ACADEMY</span>
             </a>
-
-            <div class="navbar-z ">
-                <ul class="nav nav-pills navbar-right" id="nav-list">
+            <!-- Nav links -->
+            <div class="navbar-z">
+                <ul class="nav nav-pills navbar-right">
                     <li class="nav-item">
                         <a class="nav-link" href="#">On Campus</a>
                     </li>
@@ -38,9 +41,71 @@
                     </li>
                 </ul>
             </div>
-
         </div>
     </nav>
+    <!-- Mobile -->
+    <div class="" id="mobile-nav">
+        <ul class="nav navbar">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="./resources/images/ic-logo.svg" alt="Home"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="./resources/images/ic-on-campus.svg" alt="On campus"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="./resources/images/ic-online.svg" alt="Online"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><img
+                        src="./resources/images/ic-login.svg" alt="Sign in"></a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- B A N N E R -->
+    <div class="container-fluid p-4 mb-4 bg-secondary">
+        <div class="row">
+        <div class="col-md-7">
+            <img class="img-fluid w-100" src="./resources/images/banner.jpg" alt="Banner image of students studying in campus" id="banner-img">
+        </div>
+        <div class="col-md-5 pl-5">
+          <h1 class="display-5 fw-bold">Learn something new everyday</h1>
+          <p class="fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button class="btn btn-primary btn-lg" type="button">Start here</button>
+        </div>
+        </div>
+      </div>
+
+    <!-- C O N T E N T -->
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <div class="row img">
+                    <img src="./resources/images/information-main.jpg" alt="">
+                </div>
+                <div class="row text">
+                    <h2>It doesn't hurt to keep practicing</h2>
+                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia rerum tempora necessitatibus quaerat magni. Officiis, quidem. Eius soluta voluptates similique nam dolor tempora.</p>
+                    <span>Emanuel, St Strategist at Hiring.com</span>
+                </div>                
+            </div>
+            <div class="col-5">     
+                <div class="row">
+                    <div class="col-5"> <img class="img-fluid" src="./resources/images/information-orientation.jpg" alt="Orientation date image">
+                    </div>
+                    <div class="col-7 justify-content-center"> 
+                        <h6>Orientation date</h6>
+                        <span>Tue 10/11 & Wed 10/12: 8am-3pm</span>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="row"></div>
+                <div class="row"></div>
+
+            </div>
+        </div>
+    </div>
+    
 </body>
 
 </html>

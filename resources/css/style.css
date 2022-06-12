@@ -2,8 +2,22 @@
     color:black;
 }
 
-@media only screen and (max-width: 480px) {
-    nav .nav-brand{
-        display:none;
+#banner-img{
+    width: 100%;
+}
+
+
+
+/* Media query for mobile */
+@media only screen and (max-width: 680px) {
+    #desktop-nav{
+        display: none;
+    }
+}
+
+/* Media query for desktop */
+@media only screen and (min-width: 680px) {
+    #mobile-nav{
+        display: none;
     }
 }
